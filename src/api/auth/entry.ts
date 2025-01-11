@@ -1,4 +1,4 @@
-import BaseApiClass from '../../base-class'
+import BaseApiClass from '../base-class'
 import type { SignUpReq } from './requests'
 import type { SignUpRes } from './responses'
 

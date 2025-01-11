@@ -2,10 +2,10 @@
 
 ### Tech stack:
 
-- Languages: JS, TS
-- Libs & frameworks: next.js, tailwind, axios
-- Linters, type checkers, etc.: eslint, prettier, husky
-- Package manager: npm
+-   Languages: JS, TS
+-   Libs & frameworks: next.js, tailwind, axios
+-   Linters, type checkers, etc.: eslint, prettier, husky
+-   Package manager: npm
 
 ## Getting Started
 
@@ -19,9 +19,10 @@ npm i
 
 ```bash
 - npx husky-init
-- npx husky set .husky/pre-commit 'npx lint-staged@15.2.5 && npm run build'
 - npm pkg delete scripts.prepare
 ```
+
+Then open `.husky/pre-commit` and add `npx lint-staged@15.2.5 && npm run build` instead of `npm test`
 
 #### 3. Run dev server
 
